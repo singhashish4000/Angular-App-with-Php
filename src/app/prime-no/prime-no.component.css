@@ -1,0 +1,13 @@
+#prim-no {
+ //border: 1px solid red;
+ //background-color: red;
+ width: 70%;
+ height: auto;
+
+ margin: auto;
+}
+
+#div_PN{
+  padding: 10px;
+  border-radius: 5px;
+}

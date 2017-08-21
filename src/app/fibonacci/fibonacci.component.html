@@ -1,0 +1,21 @@
+<br><br>
+<div class="panel panel-success" id="fibonacci">
+  <div class="panel-heading"><h3>Fibonacci Assignment</h3></div>
+  <div class="panel-body">  <label for="number">Enter the Number: </label>
+
+    <!--Binding the input so it will be accessable in ts file-->
+  <input type="number" class="form-control" name="number" value="" [(ngModel)]="number"><br>
+
+    <!--Trigering prime function on click event-->
+  <input type="submit" class="btn btn-success"  name="" value="Submit" (click)="fibonaci()"><br>
+
+
+<!--Div where Results will be displayed from func-->
+<br>
+<div id="div_F" >
+
+</div>
+
+
+  </div>
+</div>
